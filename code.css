@@ -1,0 +1,148 @@
+*{
+  box-sizing: border-box;
+  padding: auto;
+}
+body{
+  background-image: url(teamcode.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: none;
+}
+
+nav{
+  justify-content: space-between;
+  margin-top: 7px;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  margin-left: 220px;
+  margin-top: -36px;
+  padding: 0 20px;
+}
+li a{
+  margin-inline: 22px;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+.praroz{
+  color: orangered;
+  padding: 0 px;
+  line-height: 60px;
+  font-size: auto;
+  margin-left: 5px;
+}
+.praroz h1{
+  color: orangered;
+  /* margin-right: 870px; */
+}
+.parent_div{
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  justify-content: space-between;
+  margin: 0px 30px;
+}
+.cont-1{
+  padding: 10px;
+  /* text-align: center; */
+  width: 60%;
+}
+.cont-1 h1{
+  color: white;
+  line-height: 60px;
+
+}
+strong{
+  color: orangered;
+  font-size: 52px;
+}
+.dog{
+  background-color: white;
+  color: orangered !important;
+  padding: 2px;
+  border-radius: 8px;
+  font-size: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: calibri;
+  font-weight: 600;
+  padding-bottom: 5px;
+  margin: 0px;
+}
+
+h1{
+  font-family: arial;
+  width: 400px;
+  line-height: 50px;
+  font-size: 45px;
+  margin-bottom: 0px;
+}
+.cont-1 p{
+  color: white;
+  width: 650px;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.cont-2 {
+  width: 25%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 20px;
+
+}
+.formrapper .forminput input {
+  width: 100%;
+  height: 40px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #555;
+  margin: 15px 0;
+  color: white;
+}
+.formrapper .forminput input::placeholder{
+  color: white;
+}
+.formrapper .forminput input:focus {
+  outline: none;
+}
+.formrapper button {
+  width: 100%;
+  text-align: center;
+  background-color: orangered;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.formrapper p a {
+  color: orangered;
+  text-decoration: none;
+}
+.formrapper p{
+  color: white;
+  text-align: center;
+  width: 75%;
+  margin: 15px auto;
+  font-size: 20px;
+}
+.formrapper  p:last-child{
+  margin-bottom: 100px;
+}
+.join_us{
+  background-color: orangered;
+  border: none;
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  vertical-align: text-bottom;
+  font-weight: bold;
+  margin-top: 10px;
+}
